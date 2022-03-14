@@ -1,0 +1,7 @@
+---
+name: ServerList
+version: 0.0.1
+main: Kelvinlolz\ServerList\Main
+api: 4.2.3
+src-namespace-prefix: Kelvinlolz\ServerList
+...
