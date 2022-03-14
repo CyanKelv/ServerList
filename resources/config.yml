@@ -1,0 +1,13 @@
+settings:
+  formTitle: "Server List"
+  formContent: "Select a server that you wish to join"
+  displayDetails: true # Display IP and Port below server names
+servers:
+  hub:
+    ip: "127.0.0.1"
+    port: 12345
+    imageURL: -1
+  server1:
+    ip: "127.0.0.1"
+    port: 12345
+    imageURL: -1

@@ -1,7 +1,19 @@
 ---
 name: ServerList
-version: 0.0.1
+version: 1.0.0
 main: Kelvinlolz\ServerList\Main
-api: 4.2.3
+api: 4.0.0
 src-namespace-prefix: Kelvinlolz\ServerList
+
+commands:
+  servers:
+    description: Display server list
+    usage: "/servers"
+    permission: servers.list
+
+permissions:
+  servers.list:
+    default: true
+  servers.reload:
+    default: op
 ...
