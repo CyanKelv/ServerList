@@ -3,6 +3,8 @@ name: ServerList
 version: 1.0.0
 main: Kelvinlolz\ServerList\Main
 api: 4.0.0
+depend:
+  - FormAPI
 src-namespace-prefix: Kelvinlolz\ServerList
 
 commands:
